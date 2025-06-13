@@ -1,0 +1,48 @@
+{
+  "id" : "com.ml4w.welcome",
+  "runtime" : "org.gnome.Platform",
+  "runtime-version" : "47",
+  "runtime-commit" : "da830f4fbf162f5b86f179229a0517dedb5c98d7842dc12168a92e8c92ab811f",
+  "sdk" : "org.gnome.Sdk",
+  "sdk-commit" : "fb80b390814cafb87b4bceb0de0baebe9e85812c84fe8a619358992b53c0aa86",
+  "build-options" : {  },
+  "command" : "dotfiles-welcome",
+  "modules" : [
+    {
+      "name" : "dotfiles-welcome",
+      "buildsystem" : "meson",
+      "builddir" : true,
+      "config-opts" : [
+        "--libdir=lib"
+      ],
+      "sources" : [
+        {
+          "url" : "https://github.com/mylinuxforwork/dotfiles-welcome.git",
+          "commit" : "0f7d4b4f89a96ed4ab6decb7b451b074fa1aadd8",
+          "type" : "git"
+        }
+      ]
+    }
+  ],
+  "cleanup" : [
+    "/include",
+    "/lib/pkgconfig",
+    "/man",
+    "/share/doc",
+    "/share/gtk-doc",
+    "/share/man",
+    "/share/pkgconfig",
+    "*.la",
+    "*.a"
+  ],
+  "finish-args" : [
+    "--share=network",
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--socket=wayland",
+    "--talk-name=org.freedesktop.Flatpak",
+    "--filesystem=home"
+  ],
+  "source-date-epoch" : 1749819207
+}

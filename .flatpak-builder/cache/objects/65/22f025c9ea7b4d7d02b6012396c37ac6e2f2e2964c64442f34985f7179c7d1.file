@@ -1,0 +1,14 @@
+[Application]
+name=com.ml4w.hyprlandsettings
+runtime=org.gnome.Platform/x86_64/47
+sdk=org.gnome.Sdk/x86_64/47
+command=hyprland-settings
+
+[Context]
+shared=network;ipc;
+sockets=x11;wayland;fallback-x11;
+devices=dri;
+filesystems=home;
+
+[Session Bus Policy]
+org.freedesktop.Flatpak=talk
