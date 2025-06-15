@@ -2,7 +2,7 @@
 Title=ML4W Flatpaks
 Comment=Central repository ML4W Flatpak applications
 Description=Central repository of Flatpak applications
-Homepage=https://github.com/mylinuxforwork/ml4w-flatpak-repo
+Homepage=https://mylinuxforwork.github.io/ml4w-flatpak-repo/
 Url=https://mylinuxforwork.github.io/ml4w-flatpak-repo/repo/
 Icon=https://mylinuxforwork.github.io/ml4w-flatpak-repo/icon.png
 GPGKey=5544907F31DF39950A1A576F48F295379AF3AC1E
