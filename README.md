@@ -1,6 +1,15 @@
-# How to Install Apps from the ML4W Flatpak Repository
+# How to Install Apps from the ML4W Flatpak Repo
 
-This guide explains how to add the ML4W Flatpak repository and install applications like `Hyprland Settings` (`com.ml4w.hyprlandsettings`).
+The ML4W Flatpak Repo provides all flatpak apps developed by ML4W.
+
+Copy the following command into your terminal to add the ML4W Flatpak Repo automatically:
+
+```
+bash -c "$(curl -s https://raw.githubusercontent.com/mylinuxforwork/ml4w-flatpak-repo/main/setup.sh)"
+
+```
+
+## Manual adding the repo (OPTIONAL)
 
 ### Step 1: Download the Repository's Public Key
 
