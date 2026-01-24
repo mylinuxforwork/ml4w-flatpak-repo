@@ -34,9 +34,9 @@ project_path="/home/raabe/Projects/"
 architectures=("x86_64")
 for arch in "${architectures[@]}"; do
     # _build_app "dotfiles-welcome/com.ml4w.welcome.json" "$arch"
-    _build_app "dotfiles-settings/com.ml4w.settings.json" "$arch"
+    # _build_app "dotfiles-settings/com.ml4w.settings.json" "$arch"
     # _build_app "dotfiles-sidebar/com.ml4w.sidebar.json" "$arch"
-    # _build_app "dotfiles-calendar/com.ml4w.calendar.json" "$arch"
+    _build_app "dotfiles-calendar/com.ml4w.calendar.json" "$arch"
     # _build_app "hyprland-settings/com.ml4w.hyprlandsettings.json" "$arch"
 done
 echo "All builds completed successfully."
